@@ -14,6 +14,11 @@ public class BaseClass {
 	
 WebDriver driver;
 
+String HomePageURL = "https://www.21-points.com/";
+
+String AboutPageURL = "https://www.21-points.com/#/about";
+
+
 	
 	@BeforeMethod
 	public void setupApplication()
